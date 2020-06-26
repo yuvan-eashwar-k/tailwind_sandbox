@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"
+      integrity="sha256-HkXXtFRaflZ7gjmpjGQBENGnq8NIno4SDNq/3DbkMgo="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Help Center</title>
+  </head>
+  <body class="box-border p-0 m-0 bg-blue-900">
+    <div
+      class="w-screen leading-loose sm:w-3/5 sm:mx-auto lg:w-10/12 lg:grid lg:grid-cols-2 lg:pt-40"
+    >
+      <div
+        id="main-form"
+        class="flex flex-col pl-4 m-4 text-gray-200 bg-gray-800 rounded-lg lg:w-6/12 lg:leading-10"
+      >
+        <div id="form-a">
+          <a href="" class=""><i class="fas fa-times"></i></a>
+        </div>
+        <div id="form-b">
+          <h1 class="text-2xl font-bold">Hi!</h1>
+          <p>One of our consultants will assist you as soon as they can!</p>
+        </div>
+        <div id="form-c" class="flex flex-col">
+          <form>
+            <label class="block" for="name">Name</label>
+            <input
+              class="block w-11/12 px-3 py-1 bg-transparent border border-gray-300 rounded-lg"
+              type="text"
+              name="name"
+              id="name"
+            />
+            <label class="block mt-3" for="email">Email</label>
+            <input
+              class="block w-11/12 px-3 py-1 bg-transparent border border-gray-300 rounded-lg"
+              type="email"
+              name="email"
+              id="email"
+            />
+            <label class="block mt-3" for="phone">Phone Number(optional)</label>
+            <input
+              class="block w-11/12 px-3 py-1 bg-transparent border border-gray-300 rounded-lg"
+              type="text"
+              name="phone"
+              id="phone"
+            />
+            <label class="block mt-3" for="message">Message</label>
+            <textarea
+              class="block w-11/12 px-3 py-1 bg-transparent border border-gray-300 rounded-lg"
+              name="message"
+              id="message"
+            ></textarea>
+            <button
+              class="self-center w-11/12 py-2 mx-auto my-4 text-center text-white transition-all duration-500 ease-in-out bg-blue-600 rounded-lg hover:bg-white hover:text-blue-700"
+              type="submit"
+            >
+              Start Chat
+            </button>
+          </form>
+        </div>
+      </div>
+      <div>
+        <div
+          id="main-verify"
+          class="grid grid-cols-2 pl-4 m-4 mt-6 text-gray-200 bg-gray-800 rounded-lg lg:ml-20 lg:leading-10"
+        >
+          <div class="flex items-center justify-center">
+            <i class="text-blue-500 fas fa-user-check fa-5x"></i>
+          </div>
+          <div class="p-2">
+            <h1 class="text-xl font-bold text-gray-100">
+              Show others you are safe
+            </h1>
+            <p>
+              If you approve your profile with BankID, you are perceived as a
+              safer person to trade with.
+            </p>
+            <a
+              class="px-10 py-2 mx-auto my-6 text-center text-gray-800 transition-all duration-500 ease-in-out bg-gray-200 rounded-lg hover:bg-blue-500 hover:text-white"
+              href="#"
+              >Get Started</a
+            >
+          </div>
+        </div>
+
+        <div
+          id="newletter"
+          class="p-6 pl-4 m-4 mt-6 text-gray-200 bg-gray-800 rounded-lg lg:mt-20"
+        >
+          <div><i class="far fa-envelope fa-3x"></i></div>
+          <h1 class="text-2xl font-bold">Subscribe to the newletter</h1>
+          <input
+            class="block w-11/12 px-3 py-1 bg-transparent border border-gray-300 rounded-lg lg:w-9/12 lg:leading-10"
+            type="email"
+            placeholder="Enter email address"
+          />
+          <button
+            class="block px-8 py-2 mt-4 text-white transition-all duration-500 ease-in-out bg-blue-500 rounded-lg hover:bg-white hover:text-blue-700"
+            type="submit"
+          >
+            Ok
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
