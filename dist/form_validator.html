@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Form Validator</title>
+  </head>
+  <body
+    class="box-border flex items-center justify-center h-screen p-0 m-0 font-sans bg-gray-200"
+  >
+    <div class="w-4/5 bg-white rounded-lg shadow-xl md:max-w-screen-sm">
+      <form id="form" class="px-10 py-12">
+        <h2 class="mb-20 text-2xl font-bold text-center">Register With Us</h2>
+        <div class="relative pb-4 mb-4">
+          <label class="block mb-2 text-gray-600" for="username"
+            >Username</label
+          >
+          <input
+            class="block w-full p-2 text-sm border-2 border-gray-400 border-solid rounded-sm focus:border-gray-700"
+            type="text"
+            id="username"
+            placeholder="Enter username"
+          />
+          <small class="absolute bottom-0 left-0 invisible text-red-600"
+            ></small
+          >
+        </div>
+        <div class="relative pb-4 mb-4">
+          <label class="block mb-2 text-gray-600" for="email">Email</label>
+          <input
+            class="block w-full p-2 text-sm border-2 border-gray-400 border-solid rounded-sm focus:border-gray-700"
+            type="text"
+            id="email"
+            placeholder="Enter email"
+          />
+          <small class="absolute bottom-0 left-0 invisible text-red-600 vi"
+            ></small
+          >
+        </div>
+        <div class="relative pb-4 mb-4">
+          <label class="block mb-2 text-gray-600" for="password"
+            >Password</label
+          >
+          <input
+            class="block w-full p-2 text-sm border-2 border-gray-400 border-solid rounded-sm focus:border-gray-700"
+            type="password"
+            id="password"
+            placeholder="Enter password"
+          />
+          <small class="absolute bottom-0 left-0 invisible text-red-600 vi"
+            ></small
+          >
+        </div>
+        <div class="relative pb-4 mb-4">
+          <label class="block mb-2 text-gray-600" for="password2"
+            >Confirm Password</label
+          >
+          <input
+            class="block w-full p-2 text-sm border-2 border-gray-400 border-solid rounded-sm focus:border-gray-700"
+            type="password"
+            id="password2"
+            placeholder="Enter Password Again"
+          />
+          <small class="absolute bottom-0 left-0 invisible text-red-600 vi"
+            ></small
+          >
+        </div>
+        <button
+          type="submit"
+          class="block w-full p-3 mt-6 text-base text-white transition-all duration-500 ease-in-out bg-blue-600 border-2 border-blue-500 border-solid rounded-lg cursor-pointer hover:bg-blue-300 hover:text-blue-700"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="./js/form_validator.js"></script>
+  </body>
+</html>
